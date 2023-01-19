@@ -38,11 +38,11 @@ p {
 }
 
 
-
+/*
+*  Contenitori card
+*/
 .card-container {
     margin: 50px 0;
-    background-color: #E53170;
-    border: 3px solid #212121;
 }
 
 .clearfix::after {
@@ -53,16 +53,32 @@ p {
 
 
 
-
 .card {
     height: 70px;
-    width: calc(100% / 3 - 30px);
-    /* margin: 0 15px; */
-
+    width: calc(100% / 3 - 10px);
+    margin-bottom: 50px;
     background-color: #212121;
     float: left;
 }
 
-.card:nth-child(2) {
-    margin: 0 15px;
+
+.card:nth-last-child(3n+2) {
+    margin-left: 15px;
+    margin-right: 15px;
+}  
+
+/*  -------------  CRISTIAN  --------------
+.card {
+    height: 70px;
+    width: calc(100% / 3 - 15px);
+    margin: 0 20px;
+    background-color: #212121;
+    float: left;
 }
+.card:nth-child(3) {
+    margin-right: 0;
+}
+.card:nth-child(1) {
+    margin-left: 0;
+} 
+------------------------------------------ */
