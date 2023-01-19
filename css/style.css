@@ -9,10 +9,10 @@
 }
 
 
+
 /*
 *  Typo
 */
-
 h2 {
     font-size: 34px;
     font-weight: 600;
@@ -42,17 +42,13 @@ p {
     text-align: center;
 }
 
-.mail-text {
-    display: block;
-}
-
 .mail-text > a{
     color: #17CCF2;
     font-size: 14px;
     font-weight: 300;
     text-decoration: none;
-    margin-top: 10px;
 }
+
 
 
 /*
@@ -62,6 +58,7 @@ p {
     max-width: 1050px;
     margin: 0 auto;
 }
+
 
 
 /*
@@ -81,7 +78,7 @@ p {
     width: calc(100% / 3 - 10px);
     margin-bottom: 50px;
     background-color: #0F0E17;
-    box-shadow: 0px 0px 25px 10px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.5);
     float: left;
 }
 
@@ -110,10 +107,14 @@ p {
 /*
 *  Singola card
 */
-
 .card > img {
     float: left;
     max-width: 100px;
     max-height: 100px;
     margin-right: 15px;
+}
+
+.mail-text {
+    display: block;
+    margin-top: 10px;
 }
