@@ -10,7 +10,31 @@
 
 
 /*
-*  Commons
+*  Typo
 */
 
+h2 {
+    font-size: 34px;
+    font-weight: 600;
+    color: #E53170;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
 
+p {
+    color: #212121;
+    text-align: center;
+}
+
+
+
+/*
+*  Page rules
+*/
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 50px;
+    padding-right: 50px;
+}
