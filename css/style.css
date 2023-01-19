@@ -33,8 +33,36 @@ p {
 *  Page rules
 */
 .container {
-    max-width: 1200px;
+    max-width: 1050px;
     margin: 0 auto;
-    padding-left: 50px;
-    padding-right: 50px;
+}
+
+
+
+.card-container {
+    margin: 50px 0;
+    background-color: #E53170;
+    border: 3px solid #212121;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+
+
+.card {
+    height: 70px;
+    width: calc(100% / 3 - 30px);
+    /* margin: 0 15px; */
+
+    background-color: #212121;
+    float: left;
+}
+
+.card:nth-child(2) {
+    margin: 0 15px;
 }
